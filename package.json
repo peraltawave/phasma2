@@ -1,0 +1,33 @@
+{
+  "name": "phasma2",
+  "version": "1.0.0",
+  "description": "Second working repo in case heroku doesn't work",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peraltawave/phasma2.git"
+  },
+  "keywords": [
+    "pet",
+    "finder",
+    "project",
+    "2"
+  ],
+  "author": "Grupo Cuatro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peraltawave/phasma2/issues"
+  },
+  "homepage": "https://github.com/peraltawave/phasma2#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mysql2": "^1.6.4",
+    "sequelize": "^4.41.1"
+  }
+}
