@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <!--This is our template. -->
+    <!--Data will be inserted in its according place, replacing the brackets.-->
+    <script id="address-template" type="text/x-handlebars-template">
+    <p>You can find me in {{city}}. My address is {{number}} {{street}}.</p>
+  </script>
+
+    <!--Your new content will be displayed in here-->
+    <div class="content-placeholder"></div>
+
+    <script id="expressions-template" type="text/x-handlebars-template">
+        {{description.escaped}}
+        {{example}}
+      
+        <br><br>
+      
+        {{description.unescaped}}
+        {{{example}}}
+      </script>
+      
+      <div class="content-placeholder"></div>
+
+      
+
+</body>
+
+</html>
